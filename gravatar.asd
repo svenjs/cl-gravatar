@@ -7,6 +7,6 @@
   :author "Greg Pfeil <greg@technomadic.org>"
   :license "Apache 2.0"
   :version "0.0.1"
-  :depends-on (md5 drakma puri cl-json babel)
+  :depends-on (drakma ironclad cl-json trivial-utf-8)
   :components ((:file "package")
                (:file "gravatar" :depends-on ("package"))))
